@@ -1,6 +1,6 @@
 # Как внести вклад в ORCNEIT
 
-[English](CONTRIBUTING.en.md) · [Нормы поведения](CODE_OF_CONDUCT.md)
+[English](docs/en/contributing.md) · [Нормы поведения](CODE_OF_CONDUCT.md)
 
 В `research` эти правила дополнены порядком работы с исследовательскими публикациями. [Общие правила организации](https://github.com/ORCNEIT-LLC/.github/blob/main/CONTRIBUTING.md) также доступны в `.github`.
 

@@ -33,9 +33,9 @@ The initial series appeared on LAB on 26 September 2026. The overview and four a
 
 ## Participation
 
-[Contributing](CONTRIBUTING.en.md) covers publication corrections, numerical checks, Contributors and future community API development. An available public API has not been announced; `research` remains a research repository.
+[Contributing](docs/en/contributing.md) covers publication corrections, numerical checks, Contributors and future community API development. An available public API has not been announced; `research` remains a research repository.
 
-[Code of conduct](CODE_OF_CONDUCT.en.md) explains discussion rules, private reporting and moderation.
+[Code of conduct](docs/en/code-of-conduct.md) explains discussion rules, private reporting and moderation.
 
 ## Contact
 

@@ -1,6 +1,6 @@
 # ORCNEIT community code of conduct
 
-[Русский](CODE_OF_CONDUCT.md) · [Contributing](CONTRIBUTING.en.md)
+[Русский](../../CODE_OF_CONDUCT.md) · [Contributing](contributing.md)
 
 ORCNEIT brings together people who want to understand research, improve tools and help develop language technologies. Different experience and disagreement are useful; humiliation, threats and coercion are not. Participants do not have to be professional developers, researchers or fluent English speakers to be treated with respect.
 
