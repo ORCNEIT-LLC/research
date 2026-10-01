@@ -31,8 +31,14 @@ ORCNEITGPT находится в исследовательской разраб
 
 Первая серия работ опубликована на LAB 26 сентября 2026 года. Обзор и четыре дополнительных исследования опубликованы 1 октября 2026 года. Даты публикаций не меняют даты проведённых экспериментов. Три первоначальные работы сохранены без дублирования.
 
+## Участие
+
+[Как внести вклад](CONTRIBUTING.md) — порядок исправления публикаций, проверка числовых приложений, подробности о Contributors и будущем развитии API сообществом. Публичный API пока не объявлен доступным; `research` остаётся репозиторием исследований.
+
+[Нормы поведения](CODE_OF_CONDUCT.md) — правила обсуждений, приватный канал сообщений о нарушениях и порядок модерации.
+
 ## Связь
 
-[ORCNEIT Lab](https://orcneitlab.com) · [GitHub](https://github.com/ORCNEIT-LLC) · [Help](https://help.orcneitlab.com) · contact@orcneitlab.com
+[ORCNEIT Lab](https://orcneitlab.com) · [GitHub](https://github.com/ORCNEIT-LLC) · [Help](https://help.orcneit.com) · contact@orcneitlab.com
 
 © 2026 ООО «ОИЦ НИНТ» / ORCNEIT LLC. All rights reserved.
