@@ -1,0 +1,12 @@
+date,topic,measure,value,denominator,status
+2026-06-13,project_origin,development_started,,,research
+2026-06-14,early_model,passed_tasks,29,79,not_ready
+2026-06-14,early_system_with_rules,passed_tasks,72,79,includes_model_bypass
+2026-06-25,memory_final,passed_cases,0,246,not_accepted
+2026-07-05,tokenization_selected,bits_per_byte,2.2882379848166305,,proxy_only
+2026-07-07,stochastic_rounding,absolute_mean_signed_error,8.58e-10,,bounded_first_step
+2026-08-20,response_control,severe_generations,433,1600,unchanged_weights
+2026-08-23,base_training,completed_steps,80000,80000,quality_gate_failed
+2026-08-23,base_training,token_exposures,327680000,,includes_repeated_exposure
+2026-08-23,dialogue_fine_tuning,correct_responses,43,256,not_accepted
+2026-09-30,new_corpus,target_tokens,4000000000,,not_yet_accepted

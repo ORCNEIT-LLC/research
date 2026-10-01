@@ -2,34 +2,37 @@
 
 [Русский](README.md)
 
-Three engineering research reports from ORCNEIT Lab on the development of our language model, ORCNEITGPT. Each report includes the experiment conditions, measurements, conclusions and limitations. CSV tables and charts use the same observations.
+Eight ORCNEIT Lab publications: an overview of the project's development and seven research and engineering reports. Each presents its question, experimental conditions, measurements and limitations. Numerical appendices are available as CSV; figures use the same data.
 
-ORCNEITGPT remains in research development. Completing training does not mean passing a quality gate or becoming ready for public use.
+ORCNEITGPT remains in research development. Completed training, lower loss and successful interface rules do not establish a ready conversational model.
 
-## Reports
+## Where to start
 
-| Report | Observation dates | Main result |
-| --- | --- | --- |
-| [Language-model training from scratch](papers/en/language-model-pretraining.md) | 22–23 August 2026 | 80,000 steps and 327.68 million token exposures; the combined quality gate failed |
-| [Dialogue fine-tuning](papers/en/dialogue-fine-tuning.md) | 23 August 2026 | Correct responses increased from 0 to 43 out of 256; assistant acceptance criteria were not met |
-| [Rebuilding the training foundation](papers/en/rebuilding-the-training-foundation.md) | 20 August–26 September 2026 | Measured tokenizer and evaluator changes; the new corpus was not yet accepted at the observation date |
+[ORCNEITGPT: how the project began and where it stands](papers/en/project-origins-and-findings.md) — June to late September 2026: early evaluations, unsuccessful approaches, training from scratch and rebuilding the foundation.
 
-## Interpretation
+## All publications
 
-These are reports of ORCNEIT's own experiments, not comparisons with commercial models or independent assessments. Lower prediction loss, less repetition and faster evaluation measure different things. None alone establishes a ready assistant.
+| Publication | Observations |
+| --- | --- |
+| [ORCNEITGPT: how the project began and where it stands](papers/en/project-origins-and-findings.md) | 2026-06-13 — 2026-09-30 |
+| [Training a language model from scratch: measurements and evaluation](papers/en/language-model-pretraining.md) | 2026-08-22 — 2026-08-23 |
+| [Dialogue fine-tuning: fewer repetitions, but not enough correct answers](papers/en/dialogue-fine-tuning.md) | 2026-08-23 — 2026-08-23 |
+| [Why we are rebuilding the training corpus](papers/en/rebuilding-the-training-foundation.md) | 2026-08-20 — 2026-09-26 |
+| [Learning memory: retaining old skills does not establish new ones](papers/en/memory-learning-and-forgetting.md) | 2026-06-25 — 2026-06-25 |
+| [Preserving small updates during training](papers/en/preserving-small-training-updates.md) | 2026-07-07 — 2026-08-21 |
+| [Choosing tokenization through training, not compression alone](papers/en/tokenization-beyond-compression.md) | 2026-07-05 — 2026-07-05 |
+| [Response safeguards and model capability: what actually changes](papers/en/response-control-and-model-capability.md) | 2026-06-14 — 2026-08-20 |
 
-327.68 million tokens counts training exposure, including repeated passes, not unique corpus size. Dialogue evaluation produced 256 results from 128 tasks in two generation modes. Four billion tokens is a target, not a volume already collected or used for training.
+## Reading the results
 
-## Data and charts
+These are our own experiments, not independent certification or competition with other models. Different evaluations cannot form one progress curve. 327.68 million tokens counts training exposures, including repeats. 1,600 generations come from 400 prompts in four modes. Four billion tokens is a corpus target, not an accepted completed dataset.
 
-- [Training curve](figures/training.svg) · [CSV](data/training-observations.csv)
-- [Dialogue fine-tuning comparison](figures/dialogue.svg) · [CSV](data/dialogue-observations.csv)
-- [Tokenizer comparison](figures/tokenizer.svg) · [CSV](data/tokenizer-comparison.csv)
+[Numerical appendix guide](data/README.md)
 
-The reports were first published on the [laboratory website](https://orcneitlab.com/en-US/research) on 26 September 2026. This GitHub edition was prepared on 1 October 2026. Publication dates do not change experiment dates or the date of an observed project status.
+The initial series appeared on LAB on 26 September 2026. The overview and four additional studies were published on 1 October 2026. Publication dates do not change experiment dates. The original three papers are retained without duplication.
 
 ## Contact
 
-[ORCNEIT Lab](https://orcneitlab.com) · [Help Center](https://help.orcneitlab.com) · contact@orcneitlab.com
+[ORCNEIT Lab](https://orcneitlab.com) · [GitHub](https://github.com/ORCNEIT-LLC) · [Help](https://help.orcneitlab.com) · contact@orcneitlab.com
 
-© 2026 ORCNEIT LLC. All rights reserved.
+© 2026 ООО «ОИЦ НИНТ» / ORCNEIT LLC. All rights reserved.

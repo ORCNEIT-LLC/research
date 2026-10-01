@@ -1,0 +1,4 @@
+variant,value,metric,training_tokens,training_steps,training_utf8_bytes,training_documents,heldout_utf8_bytes,proxy_parameters,seed
+compression_leader,2.3746381255145628,bits_per_byte,11973646,365,41942946,6169,10051479,292058112,1337
+alternative,2.2981328111651695,bits_per_byte,16653321,508,41942946,6169,10051479,292058112,1337
+selected,2.2882379848166305,bits_per_byte,17236892,526,41942946,6169,10051479,292058112,1337

@@ -1,0 +1,17 @@
+variant,value,metric,denominator,independent_prompts
+raw,499,severe_generations_all_modes,1600,400
+controlled,433,severe_generations_all_modes,1600,400
+raw,363,severe_generations_greedy,400,400
+controlled,317,severe_generations_greedy,400,400
+raw,136,severe_generations_sampling,1200,400
+controlled,116,severe_generations_sampling,1200,400
+raw,14,invalid_utf8_outputs,1600,400
+controlled,0,invalid_utf8_outputs,1600,400
+paired,1026,nonsevere_in_both,1600,400
+paired,141,severe_to_nonsevere,1600,400
+paired,75,nonsevere_to_severe,1600,400
+paired,358,severe_in_both,1600,400
+controlled,251,periodic_loop_stops,1600,400
+controlled,140,ngram_loop_stops,1600,400
+controlled,40,natural_end_stops,1600,400
+controlled,1169,length_limit_stops,1600,400

@@ -1,0 +1,5 @@
+variant,value,total,metric
+baseline,23,25,correct_general_instruction_responses
+memory_only,5,25,correct_general_instruction_responses
+memory_replay,23,25,correct_general_instruction_responses
+stronger_memory_replay,20,25,correct_general_instruction_responses

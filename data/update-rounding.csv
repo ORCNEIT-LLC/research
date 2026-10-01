@@ -1,0 +1,4 @@
+variant,value,metric,comparison_step,max_branch_steps
+legacy_nearest,7.76e-8,absolute_mean_signed_writeback_error,1,20
+nearest,7.76e-8,absolute_mean_signed_writeback_error,1,20
+stochastic,8.58e-10,absolute_mean_signed_writeback_error,1,20
